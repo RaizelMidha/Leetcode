@@ -7,7 +7,7 @@ class Solution {
         int bottom = n-1;
         int val = 1;
 
-        while(left <= right){
+        while(val <= n*n){
             // filling value in row1
             for(int c = left; c <= right;c++){
                 mat[top][c] = val;
